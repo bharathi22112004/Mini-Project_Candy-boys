@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Mock Interview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Stress Mock Interview</h1>
+        <p id="question">Your question will appear here...</p>
+        <video id="webcam" autoplay muted playsinline></video>
+        <div id="controls">
+            <button id="start-recording">Start Answer</button>
+            <button id="stop-recording" disabled>Stop Answer</button>
+        </div>
+        <audio id="audio-playback" controls hidden></audio>
+        <div id="feedback">
+            <h3>Feedback</h3>
+            <p id="feedback-text">Your feedback will appear here...</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
